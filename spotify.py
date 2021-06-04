@@ -17,7 +17,6 @@ SCOPE = 'user-top-read'
 
 
 def main():
-
     # authenticate user with Spotify
     username = input("\nPlease enter your Spotify username: ")
     token = spotipy.util.prompt_for_user_token(username,
